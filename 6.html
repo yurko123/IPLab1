@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formula binet</title>
+</head>
+<body>
+<script>
+    function fibBinet(n){
+        var b= Math.sqrt(5), f=(1+b)/2;
+        return Math.round(Math.pow(f,n)/b);
+    }
+    alert(fibBinet(77));
+// sqrt(5) = нескінченний неперіодичний дріб тип даних не дає можливість хранить довгі числа
+</script>
+<p> fibBinet(77) != 5527939700884757</p>
+</body>
+</html>
